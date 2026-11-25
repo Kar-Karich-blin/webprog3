@@ -1,5 +1,9 @@
 name: Deploy static content to Pages
 
+defaults:
+  run:
+    working-directory: ./webprog3
+
 on:
   push:
     branches: ['main']
