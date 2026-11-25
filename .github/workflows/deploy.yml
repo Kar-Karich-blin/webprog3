@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: lts/*
           cache: 'npm'
-          cache-dependency-path: './my_app/package-lock.json' 
+          cache-dependency-path: './my-catalog-app/package-lock.json' 
       - name: Install dependencies
         run: npm ci
       - name: Build
