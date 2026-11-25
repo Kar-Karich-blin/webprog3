@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 defaults:
   run:
-    working-directory: ./webprog3
+    working-directory: ./my-catalog-app
 
 on:
   push:
